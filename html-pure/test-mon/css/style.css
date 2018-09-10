@@ -13,15 +13,13 @@
     box-sizing: border-box;
     font-size: 12pt;
     font-family: 'Montserrat Alternates';
-
 }
-
 body {
-    background-color: #42DFF4;
+    background-color: #CDCDCD;
 }
 header {
     width: 100%;
-    background: #999999;
+    background: #666666;
     height:100px;
 }
 .ancho {
@@ -41,8 +39,7 @@ header {
     font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 .logo a img{
     color: #FFF;
@@ -60,17 +57,13 @@ nav {
     text-align: right;
     padding-top:3%;
 }
-
 nav ul li{
     display: inline;
     border-right: 1px solid #fff;
-   
 }
-
 nav ul li:last-child{
     border-right: none;
 }
-
 nav ul li a{
     color:#FFF;
     font-size: .8rem;
@@ -78,9 +71,28 @@ nav ul li a{
     text-transform: uppercase;
     font-weight: bold;
     margin:1%;
-    
 }
-
 nav ul li a:hover{
     color: #444;
+}
+/* main */
+main {
+    width: 80%;
+    height: 2000px;
+    margin: auto;
+    background: #AAAAAA
+}
+.inicio {
+    width:100%;
+    margin: auto;
+    text-align: center;
+}
+.inicio img{
+    margin-top:10px;
+}
+/* footer */
+footer {
+    width: 100%;
+    height: 200px;
+    background:#000;
 }

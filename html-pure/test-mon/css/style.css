@@ -1,0 +1,86 @@
+/* fuentes de google */
+/* 
+    font-family: 'Rokkitt', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Elsie', cursive;
+*/
+@import url('https://fonts.googleapis.com/css?family=Elsie|Montserrat+Alternates|Rokkitt');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12pt;
+    font-family: 'Montserrat Alternates';
+
+}
+
+body {
+    background-color: #42DFF4;
+}
+header {
+    width: 100%;
+    background: #999999;
+    height:100px;
+}
+.ancho {
+    width:80%;
+    height: 100px;
+    margin:auto;
+}
+.logo{
+    width: 30%;
+    height: 100px;
+    float:left;
+    padding-top: 1%;
+    box-sizing: border-box;
+}
+.logo p a{
+    color:#fff;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+.logo a img{
+    color: #FFF;
+    font-size: 3rem;
+   text-align: center;
+    box-sizing: border-box;
+}
+.logo-hidden{
+    visibility: hidden;
+}
+nav {
+    width: 70%;
+    height: 100px;
+    float:left;
+    text-align: right;
+    padding-top:3%;
+}
+
+nav ul li{
+    display: inline;
+    border-right: 1px solid #fff;
+   
+}
+
+nav ul li:last-child{
+    border-right: none;
+}
+
+nav ul li a{
+    color:#FFF;
+    font-size: .8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin:1%;
+    
+}
+
+nav ul li a:hover{
+    color: #444;
+}

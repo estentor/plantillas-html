@@ -1,0 +1,46 @@
+/* fuentes de google */
+/* 
+    font-family: 'Rokkitt', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Elsie', cursive;
+*/
+@import url('https://fonts.googleapis.com/css?family=Elsie|Montserrat+Alternates|Rokkitt');
+
+
+* {
+  box-sizing: border-box;
+  font-size: 12pt;
+  font-family: 'Montserrat Alternates';
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    background-color: #CDCDCD;
+}
+main{
+	width: 80%;
+	margin-left:auto;
+	margin-right: auto;
+}
+#equipo {
+	margin-bottom: 20px;
+}
+
+#equipo article{
+	margin: 0 5% 0 0;
+	width: 45%;
+	float:left;
+}
+
+footer{
+	clear: both;
+	height: 200px;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	background-color: #000;
+}
+footer p {
+	color: #fff;
+}

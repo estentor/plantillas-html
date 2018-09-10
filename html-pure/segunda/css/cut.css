@@ -1,0 +1,21 @@
+
+
+.direccion-text{
+	clear: both;
+	width: 20%;
+	margin-left: auto;
+	float:left;
+}
+.direccion-text ul {
+
+}
+.direccion-text ul li{
+	list-style:none;
+}
+.map{
+	width: 77%;
+	float:left;
+}
+.map iframe{
+	width: 100%;
+}

@@ -1,28 +1,52 @@
+/* fuentes de google */
+/* 
+
+    font-family: 'Rokkitt', serif;
+
+    font-family: 'Montserrat Alternates', sans-serif;
+
+    font-family: 'Elsie', cursive;
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Elsie|Montserrat+Alternates|Rokkitt');
+
+
 * {
   box-sizing: border-box;
   font-size: 14pt;
-
+  font-family: helvetica;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: #f9f9f9;
-    font-family: Helvetica;
+    background-color: #CDCDCD;
 }
 
-.container {
-	max-width: 960px;
-	margin: 0 auto;
-	font-size: 1.5em;
-	margin:10%;
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-.parallax-window {
-    min-height: 400px;
-    background: transparent;
-    padding: 100px 35px;
+header nav ul li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+header nav ul li:last-child {
+    border-right: none;
+}
+header nav ul li a {
+    display: block;
+    color: white;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.info{
-	position: relative;
+/* Change the link color to #111 (black) on hover */
+header nav ul li a:hover {
+    background-color: #3333DD;
 }

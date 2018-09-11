@@ -93,9 +93,38 @@ main {
     background-size: cover;
     height: 690px;
 }
+/** INICIO **/
 #inicio{
     background-image: url('../img/bg1.png');   
 }
+/** KENPO **/
+#kenpo{
+    background-image: url('../img/bg2.png'); 
+}
+.titulo-inner {
+    width: 100%;
+    float: left;
+    
+}
+.titulo-inner h1{
+    text-align: center;
+    margin-top:10%;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-family: Rokkit;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+.titulo-inner h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Elisie';
+    font-size: .9rem;
+    font-style: oblique;
+    font-weight: 400;
+}
+/** TEAM **/
 #team{
     background-image: url('../img/bg2.png');   
 }
@@ -152,9 +181,9 @@ main {
     margin:10px;  
     margin-top:10px; 
 }
-#kenpo{
-    background-image: url('../img/bg2.png'); 
-}
+
+
+
 #team{
     background-image: url('../img/bg3.png');   
 }
